@@ -1,0 +1,9 @@
+app:
+  returnUrl: http://127.0.0.1:${server.port}/checkout/returnUrl
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql:///thw?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456

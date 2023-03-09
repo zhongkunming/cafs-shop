@@ -1,0 +1,6 @@
+*
+!src
+!pom.xml
+!Dockerfile
+!.dockerignore
+#!target/app.jar
