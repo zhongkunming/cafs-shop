@@ -1,6 +1,4 @@
 *
-!src
-!pom.xml
+!src/main/resources/application-docker.yml
 !Dockerfile
 !.dockerignore
-#!target/app.jar
