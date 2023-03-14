@@ -14,9 +14,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author jzh971018
- */
 @Service
 public class SellerServiceImpl extends ServiceImpl<SellerMapper, Seller> implements SellerService {
 

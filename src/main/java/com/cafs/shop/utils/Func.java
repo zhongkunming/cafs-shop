@@ -11,8 +11,6 @@ import java.util.Objects;
 
 /**
  * @description 工具类
- * @author jzh
- * @date 2021/3/16 18:19
  */
 public class Func {
     public Func(){}

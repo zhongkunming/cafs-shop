@@ -1,7 +1,5 @@
 package com.cafs.shop.config;
 
-import com.cafs.shop.constants.Constant;
-import com.cafs.shop.property.SwaggerProperties;
 import com.cafs.shop.utils.SwaggerUtil;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -31,12 +29,12 @@ public class SwaggerConfig {
 
     @Bean
     public Docket sellerDocker(){
-        return docket("卖家模块", Collections.singletonList(Constant.BASE_PACKAGES + ".controller.seller"));
+        return docket("卖家模块", Collections.singletonList("com.cafs.shop.controller.seller"));
     }
 
     @Bean
     public Docket adminDocker(){
-        return docket("后台模块", Collections.singletonList(Constant.BASE_PACKAGES + ".controller.admin"));
+        return docket("后台模块", Collections.singletonList("com.cafs.shop.controller.admin"));
     }
 
     private Docket docket(String groupName, List<String> basePackages) {

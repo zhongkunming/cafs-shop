@@ -18,7 +18,7 @@ import com.cafs.shop.service.CategoryTwoService;
 import com.cafs.shop.service.ExpressService;
 import com.cafs.shop.service.OrderService;
 import com.cafs.shop.service.UserService;
-import com.cafs.shop.vo.OrderVO;
+import com.cafs.shop.dto.OrderVO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

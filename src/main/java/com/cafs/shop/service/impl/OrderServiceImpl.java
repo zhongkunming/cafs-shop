@@ -13,7 +13,7 @@ import com.cafs.shop.mapper.OrderDetailMapper;
 import com.cafs.shop.mapper.ShopOrderMapper;
 import com.cafs.shop.service.OrderService;
 import com.cafs.shop.utils.IDUtil;
-import com.cafs.shop.vo.OrderVO;
+import com.cafs.shop.dto.OrderVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -6,8 +6,6 @@ import lombok.Data;
 
 /**
  * @description 时间格式化入参
- * @author jzh
- * @date 2021/4/22 15:27
  */
 @Data
 @ApiModel(description= "时间格式化入参")

@@ -1,4 +1,4 @@
-package com.cafs.shop.vo;
+package com.cafs.shop.dto;
 
 import com.cafs.shop.domain.Express;
 import com.cafs.shop.domain.OrderDetail;

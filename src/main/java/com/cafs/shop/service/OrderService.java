@@ -3,7 +3,7 @@ package com.cafs.shop.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.cafs.shop.domain.ShopOrder;
 import com.cafs.shop.dto.PageInfo;
-import com.cafs.shop.vo.OrderVO;
+import com.cafs.shop.dto.OrderVO;
 
 public interface OrderService extends IService<ShopOrder> {
     PageInfo<ShopOrder> page(int draw, int start, int length, ShopOrder order);

@@ -1,4 +1,4 @@
-package com.cafs.shop.property;
+package com.cafs.shop.config;
 
 import lombok.Data;
 import org.springframework.context.annotation.Configuration;

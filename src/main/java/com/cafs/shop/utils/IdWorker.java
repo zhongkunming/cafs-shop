@@ -56,8 +56,8 @@ public class IdWorker {
     private final long datacenterId;
 
     public IdWorker(){
-        this.datacenterId = getDatacenterId(maxDatacenterId);
-        this.workerId = getMaxWorkerId(datacenterId, maxWorkerId);
+        this.datacenterId = 1;
+        this.workerId = 1;
     }
     /**
      * @param workerId
